@@ -1,0 +1,28 @@
+{
+  "name": "instaleys",
+  "version": "1.0.0",
+  "description": "Instagram Bot Framework for Node.js (Neoxr Architecture)",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "engines": {
+    "node": ">=18.17"
+  },
+  "license": "ISC",
+  "author": "Krisna Ady S. / Wildan Izzudin",
+  "dependencies": {
+    "better-sqlite3": "^13.0.3",
+    "cfonts": "^3.3.1",
+    "chalk": "^6.0.1",
+    "colors": "^1.4.0",
+    "date-fns": "^4.4.0",
+    "dotenv": "^18.0.10",
+    "syntax-error": "^1.4.0",
+    "undici": "^6.21.0"
+  },
+  "optionalDependencies": {
+    "sharp": "^0.33.5"
+  }
+}
